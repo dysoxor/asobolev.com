@@ -1,9 +1,9 @@
-import React from 'react'
-
+import React, {useState, useEffect} from 'react'
+import { useElapsedTime } from 'use-elapsed-time'
 import Image from 'next/image'
 
 
-import pdp from '../assets/pdp_web.png'
+import pdp from '../assets/pdp_carre.png'
 
 import Link from 'next/link'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,8 +11,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
+import { text } from '@fortawesome/fontawesome-svg-core'
+
+
+const textArray = ["Software Engineer", "Data Scientist", "Full Stack Developer"]
+
+
 
 const Home_screen = () => {
+  
+
   return (
     <div className='home-container'>
       <div className='home-text-contact-container'>
@@ -24,18 +32,29 @@ const Home_screen = () => {
             <div className='typing-home-name'><FontAwesomeIcon icon={faChevronRight} style={{fontSize: '74px', fontWeight:'100' }} /> <span className='home-left-logo'>A</span> <span className='home-right-logo'>I'm Andrey</span></div>
           </div>
           <div className='home-title typing-home-title'>
-            <div className='typing-home-title'><FontAwesomeIcon icon={faChevronRight} style={{fontSize: '74px', fontWeight:'100' }}/> Software Engineer</div>
+            <div className="typing-home-title"> <ul className='titles-home-container'> <li style={{display: 'inline'}}><FontAwesomeIcon icon={faChevronRight} style={{fontSize: '74px', fontWeight:'100' }}/> </li> <li className='software-engineer-home'><span>Software Engineer</span></li> <li className='data-scientist-home'><span>Data Scientist</span></li> <li className='full-stack-home'><span>Full Stack Developer</span></li> </ul> </div>
           </div>
         </div>
         <div className='home-link-contact-container'>
           <Link  href='/'>
-            <a className='home-contact-container'>contact me</a>
+            
+            <a className='home-contact-container button'>
+              <div className="bottom"></div>
+              <div className="top">
+              <div className='label'>contact me</div>
+                <div className="button-border button-border-left"></div>
+                <div className="button-border button-border-top"></div>
+                <div className="button-border button-border-right"></div>
+                <div className="button-border button-border-bottom"></div>
+
+              </div>
+            </a>
           </Link>
         </div>
         
       </div>
       <div className='home-image-container'>
-        <Image src={pdp} alt='andrey sobolevsky pic' width={500} height={500}/>
+        <Image src={pdp} alt='andrey sobolevsky pic' width={550} height={550}/>
       </div>
     </div>
   )
