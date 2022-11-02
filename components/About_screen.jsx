@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
@@ -15,11 +15,41 @@ import linkedin from '../assets/linkedin.png'
 import { Page, Text, View, Document, BlobProvider } from 'react-pdf'
 
 const About_screen = () => {
+    const prevScrollY = useRef(0);
+
+  const [goingUp, setGoingUp] = useState(false);
+
+  useEffect(() => {
+    
+    // Remove the transition class
+    const about_title = document.querySelector('.about-title');
+    about_title.classList.remove('about-title-transition');
+
+    // Create the observer, same as before:
+    const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            about_title.classList.add('about-title-transition');
+        return;
+        }
+
+        about_title.classList.remove('about-title-transition');
+    });
+    });
+
+    observer.observe(document.querySelector('.about-title'));
+    window.addEventListener("scroll", () => {
+        document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));}, false);
+
+  }, []);
   return (
-    <div className='about-container'>
+    <div  id='about' className='about-container'>
         <div className='about-title-presentation-container'>
-            <div className='about-title'>
-            <FontAwesomeIcon icon={faChevronRight} style={{fontSize: '74px', fontWeight:'100' }} /><span className='about-left-name'>A</span> <span className='about-right-full-name'>Who is <span className='about-right-name'>Andrey Sobolevsky</span>?</span>
+            <div className='about-outline'>
+                ABOUT 
+            </div>
+            <div className='about-title about-title-transition'>
+            <FontAwesomeIcon icon={faChevronRight} style={{fontSize: '74px', fontWeight:'100', background:'transparent' }} /><span className='about-left-name'>A</span> <span className='about-right-full-name'>Who is <span className='about-right-name'>Andrey Sobolevsky</span>?</span>
             </div>
             <div className='about-presentation'>
                 <p>I’m a software engineer based in Belgium and specializing in machine learning and data science. I’m motivated to build usefull systems for the world.</p>
@@ -28,17 +58,49 @@ const About_screen = () => {
                 <p>I want to be part of something that will help the world somehow. <a className='about-presentation-link' href='#contact'>Let’s build it together!</a></p>
             </div>
             <div className='about-socials-container'>
-                <Link href='/cv.pdf'><a>get pdf</a></Link>
-                <a href='https://github.com/dysoxor/personal_web/raw/master/pdf/CV.pdf' target="_blank"> <Image src={cv} alt='cv andrey sobolevsky' width={500} height={500}/> </a>
-               
+                <div className='about-icon'> <a href='https://github.com/dysoxor/asobolev.com/raw/main/assets/cv.pdf' target="_blank"> <Image src={cv} alt='cv andrey sobolevsky' width={500} height={500}/> </a></div>
+                <div className='about-icon'> <a href='https://github.com/dysoxor' target="_blank"> <Image src={git} alt='github andrey sobolevsky' width={500} height={500}/> </a></div>
+                <div className='about-icon'> <a href='https://www.linkedin.com/in/andrey-sobolevsky-33a96a142/' target="_blank"> <Image src={linkedin} alt='linkedin andrey sobolevsky' width={500} height={500}/> </a></div>
             </div>
         </div>
         <div className='about-timeline-desc-container'>
             <div className='about-timeline'>
-                timeline
+            <div class="rb-container">
+                <ul class="rb">
+                    <li class="rb-item" ng-repeat="itembx">
+                        <div class="timestamp">
+                            September 2017 - June 2020<br/> Bachelor Degree in Engineering
+                        </div>
+                        <div class="item-title">Started Bachelor degree in engineering at Université libre de Bruxelles with a specialization in computer science on the last year. I was awarded the grade of bachelor in engineering sciences with distinction. </div>
+
+                    </li>
+                    <li class="rb-item" ng-repeat="itembx">
+                        <div class="timestamp">
+                            September 2020 - June 2021<br/> Master Degree in Computer Science Engineering
+                        </div>
+                        <div class="item-title">Started Master degree in software engineering at Université libre de Bruxelles. I was selected to be part of double diploma program the following year at the University of Montreal.</div>
+
+                    </li>
+
+                    <li class="rb-item" ng-repeat="itembx">
+                        <div class="timestamp">
+                            August 2021 - Present<br/> Double Diploma in Computer Science Engineering
+                        </div>
+                        <div class="item-title">Started Master degree in software engineering at Ecole polytechnique de Montréal. This program allows me to get 2 Master Degrees from 2 different universities and to study abroad.</div>
+
+                    </li>
+
+                    <li class="rb-item" ng-repeat="itembx">
+                        <div class="timestamp">
+                            August 2022 - Present<br/> Freelance
+                        </div>
+                        <div class="item-title">Started Freelancing in machine learning field beside studying.</div>
+
+                    </li>
+
+                </ul>
+
             </div>
-            <div className='about-timeline-desc'>
-                timeline description
             </div>
         </div>
     </div>

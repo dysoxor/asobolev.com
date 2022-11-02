@@ -22,7 +22,7 @@ const Home_screen = () => {
   
 
   return (
-    <div className='home-container'>
+    <div id='home' className='home-container'>
       <div className='home-text-contact-container'>
         <div className='home-text-container'>
           <div className='home-hello-world'>
