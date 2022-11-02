@@ -1081,6 +1081,7 @@ ul.rb li:hover .item-title{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 75px;
 }
 
 .skills-title-skill-map-container{
@@ -1259,3 +1260,26 @@ ul.rb li:hover .item-title{
   background-color: transparent;
 }
 
+
+@keyframes move-skills-left-right {
+  0%{
+    margin-left:-500px;
+  }
+  100%{
+    margin-left:5000px;
+  }
+}
+
+.skills-outline{
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 120px;
+  font-weight: 900;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: -75px;
+  color: #222222;
+  text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
+  animation: move-skills-left-right 10s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -2s);
+}

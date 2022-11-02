@@ -107,8 +107,11 @@ const Skills_screen = () => {
         </div>
 
         <div className='skills-title-skill-map-container'>
+            <div className='skills-outline'>
+                SKILLS
+            </div>
             <div className='skills-title'>
-            <   FontAwesomeIcon icon={faChevronRight} style={{fontSize: '74px', fontWeight:'100', background:'transparent' }} /><span style={{marginLeft:'20px'}}>What <span style={{color:'#eddc44'}}>skills</span> are you interested by?</span>
+            <   FontAwesomeIcon icon={faChevronRight} style={{fontSize: '74px', fontWeight:'100', background:'transparent' }} /><span style={{marginLeft:'20px', background:'transparent'}}>What <span style={{color:'#eddc44', background:'transparent'}}>skills</span> are you interested by?</span>
             </div>
 
             <div className='skills-skill-map'>
