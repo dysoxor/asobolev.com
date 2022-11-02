@@ -26,10 +26,10 @@ const Home_screen = () => {
       <div className='home-text-contact-container'>
         <div className='home-text-container'>
           <div className='home-hello-world'>
-            <div className='typing-home-hello-world'><FontAwesomeIcon icon={faChevronRight} style={{fontSize: '74px', fontWeight:'100' }}/> "hello world"</div>
+            <div className='typing-home-hello-world'><FontAwesomeIcon icon={faChevronRight} style={{fontSize: '74px', fontWeight:'100' }}/> &quot;hello world&quot;</div>
           </div>
           <div className='home-name'>
-            <div className='typing-home-name'><FontAwesomeIcon icon={faChevronRight} style={{fontSize: '74px', fontWeight:'100' }} /> <span className='home-left-logo'>A</span> <span className='home-right-logo'>I'm Andrey</span></div>
+            <div className='typing-home-name'><FontAwesomeIcon icon={faChevronRight} style={{fontSize: '74px', fontWeight:'100' }} /> <span className='home-left-logo'>A</span> <span className='home-right-logo'>I&apos;m Andrey</span></div>
           </div>
           <div className='home-title typing-home-title'>
             <div className="typing-home-title"> <ul className='titles-home-container'> <li style={{display: 'inline'}}><FontAwesomeIcon icon={faChevronRight} style={{fontSize: '74px', fontWeight:'100' }}/> </li> <li className='software-engineer-home'><span>Software Engineer</span></li> <li className='data-scientist-home'><span>Data Scientist</span></li> <li className='full-stack-home'><span>Full Stack Developer</span></li> </ul> </div>
