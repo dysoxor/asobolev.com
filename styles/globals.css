@@ -278,6 +278,7 @@ a {
 
 .home-title{
   font-family: 'Nunito', sans-serif;
+  user-select: none;
 }
 
 
@@ -352,11 +353,13 @@ a {
 
 .software-engineer-home{
   display: inline;
+  user-select: none;
 }
 
 .software-engineer-home span{
   color: transparent;
   animation: display-software-engineer 15s infinite forwards 2.6s;
+  user-select: none;
 }
 
 @keyframes display-data-scientist {
@@ -384,12 +387,14 @@ a {
   display: inline;
   margin-left: -8.3em;
   background-color: transparent;
+  user-select: none;
 }
 
 .data-scientist-home span{
   background-color: transparent;
   color: transparent;
   animation: display-data-scientist 15s infinite forwards 2.6s;
+  user-select: none;
 }
 
 
@@ -413,12 +418,14 @@ a {
   display: inline;
   margin-left: -6.3em;
   background-color: transparent;
+  user-select: none;
 }
 
 .full-stack-home span{
   background-color: transparent;
   color: transparent;
   animation: display-full-stack 15s infinite forwards 2.6s;
+  user-select: none;
 }
 
 

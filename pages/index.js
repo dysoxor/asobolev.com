@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { About_screen, Home_screen, Skills_screen } from '../components'
+import { About_screen, Home_screen, Skills_screen, Projects_screen } from '../components'
 
 const Home = () => {
   return (
@@ -8,6 +8,7 @@ const Home = () => {
       <Home_screen/>
       <About_screen/>
       <Skills_screen/>
+      <Projects_screen/>
     </div>
   )
 }
