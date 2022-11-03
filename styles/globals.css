@@ -1308,4 +1308,200 @@ ul.rb li:hover .item-title{
 /*------------------------------- PROJECTS -------------------------------*/
 /*------------------------------------------------------------------------*/
 
+.projects-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 200px;
+}
+
+.projects-title-image-container{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-table-scroll-container{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-table-scroll-row-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.projects-table-container{
+  width: 80%;
+  margin-right: 5%;
+  height: 725px;
+  overflow:auto;
+}
+
+.projects-table-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 104px;
+  background-color: transparent;
+  border-bottom: #ffffff solid 3px;
+  cursor: pointer;
+  background-color: #222222;
+}
+
+.projects-table-item:hover{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 104px;
+  background-color: transparent;
+  border-bottom: #ffffff solid 3px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.projects-table-active-item{
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 104px;
+  background-color: transparent;
+  border-bottom: #ffffff solid 3px;
+  cursor: pointer;
+}
+
+.projects-table-item .projects-table-name{
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  align-self: center;
+  margin-left: -1em;
+  transition: margin-left 1s;
+  background-color: transparent;
+}
+
+.projects-table-active-item .projects-table-name{
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  align-self: center;
+  margin-left: 0em;
+  transition: margin-left 1s;
+  background-color: transparent;
+}
+
+.projects-moving-name{
+  margin-left: 0.3em;
+  background-color: transparent;
+  color: #fff;
+}
+
+.projects-table-item:hover .projects-moving-name{
+  color: #000000;
+}
+
+.projects-table-category{
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #a1a1a1;
+  align-self: center;
+  background-color: transparent;
+}
+
+.projects-scroll-down-container{
+  width: 15%;
+  background-color: transparent;
+  
+}
+
+@keyframes bounce-scroll-down {
+  0%{
+    padding-left: 75px;
+  }
+  80%{
+    padding-left: 75px;
+  }
+  85%{
+    padding-left: 25px;
+  }
+  90%{
+    padding-left: 75px;
+  }
+  95%{
+    padding-left: 25px;
+  }
+  100%{
+    padding-left: 75px;
+  }
+}
+
+.projects-scroll-down{
+  height: fit-content;
+  width: 500px;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  transform: rotate(-90deg);
+  background-color: transparent;
+  margin-top: 450px;
+  margin-left: -250px;
+  color: #fff;
+  padding-left: 75px;
+  animation: bounce-scroll-down 5s infinite;
+}
+
+.projects-title{
+  background-color: transparent;
+  font-size: 55px;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  width: 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid transparent;
+  animation: blink .5s step-end infinite alternate 0s;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .projects-title {
+    transition: width 2s ease;
+  }
+}
+
+.projects-title-transition{
+  width: 12.6em;
+}
+
+
+@keyframes move-projects-left-right {
+  0%{
+    margin-left:-500px;
+  }
+  100%{
+    margin-left:5000px;
+  }
+}
+
+.projects-outline{
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 120px;
+  font-weight: 900;
+  margin-left: 0px;
+  margin-top: -120px;
+  margin-bottom: -75px;
+  color: #222222;
+  text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
+  animation: move-projects-left-right 10s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -2s);
+}
+
 
