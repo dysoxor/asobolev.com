@@ -1318,7 +1318,7 @@ ul.rb li:hover .item-title{
 
 @keyframes move-skills-left-right {
   0%{
-    margin-left:-500px;
+    margin-left:-200px;
   }
   100%{
     margin-left:5000px;

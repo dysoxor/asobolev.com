@@ -45,7 +45,7 @@ const Skills_screen = () => {
             else{
                 currKeyboard[i] = <div key={i} className='skill-button'></div>
             }
-            currCounter[i] = Math.floor(Math.random() * 40);
+            currCounter[i] = Math.floor(Math.random() * 200);
             currCounter[18] = -1
             currText[i] = ''
 
@@ -121,7 +121,7 @@ const Skills_screen = () => {
                         else{
                             currKeyboard[i] = <div key={i} className='skill-button-active'>{currText[i]}</div>
                         }
-                        currCounter[i] = Math.floor(Math.random() * 40);
+                        currCounter[i] = Math.floor(Math.random() * 200);
                         currCounter[18] = -1
                         
                     }
@@ -149,7 +149,7 @@ const Skills_screen = () => {
                 setText(prev_text => currText)
             }
             
-            }, 500);
+            }, 100);
         
             return () => clearInterval(interval);
     
