@@ -52,9 +52,9 @@ const About_screen = () => {
             <FontAwesomeIcon icon={faChevronRight} style={{fontSize: '74px', fontWeight:'100', background:'transparent' }} /><span className='about-left-name'>A</span> <span className='about-right-full-name'>Who is <span className='about-right-name'>Andrey Sobolevsky</span>?</span>
             </div>
             <div className='about-presentation'>
-                <p>I’m a software engineer based in Belgium and specializing in machine learning and data science. I’m motivated to build usefull systems for the world.</p>
+                <p>I’m a software engineer based in Montreal and specializing in machine learning and data science. I’m motivated to build usefull systems for people and have positive impact.</p>
                 <p>I’m an organized person, hard worker, always on time, curious and problem solver. </p>
-                <p>I love working out in the gym, reading about productivity, finance or fantasy. I’m always in to participate to any activity and I’m spend some time watching anime and tv-shows.</p>
+                <p>I love working out in the gym, reading about productivity, finance or fantasy. I’m always in to participate to any activity and I spend some time watching anime and tv-shows.</p>
                 <p>I want to be part of something that will help the world somehow. <a className='about-presentation-link' href='#contact'>Let’s build it together!</a></p>
             </div>
             <div className='about-socials-container'>
@@ -84,17 +84,17 @@ const About_screen = () => {
 
                     <li class="rb-item" ng-repeat="itembx">
                         <div class="timestamp">
-                            August 2021 - Present<br/> Double Diploma in Computer Science Engineering
+                            August 2021 - Present<br/> Research Master in LITIV lab
                         </div>
-                        <div class="item-title">Started Master degree in software engineering at Ecole polytechnique de Montréal. This program allows me to get 2 Master Degrees from 2 different universities and to study abroad.</div>
+                        <div class="item-title">Started Master degree in software engineering at Ecole polytechnique de Montréal. I joined the LITIV research lab in computer vision and worked on a AI model that allows to generate Graphical User Interfaces.</div>
 
                     </li>
 
                     <li class="rb-item" ng-repeat="itembx">
                         <div class="timestamp">
-                            August 2022 - Present<br/> Freelance
+                            August 2022 - Present<br/> Teaching Assistant
                         </div>
-                        <div class="item-title">Started Freelancing in machine learning field beside studying.</div>
+                        <div class="item-title">Beside studying Im also teaching assistant in INF8770 course at Ecole Polytechnique de Montreal.</div>
 
                     </li>
 

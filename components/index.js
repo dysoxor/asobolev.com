@@ -4,3 +4,4 @@ export { default as Home_screen } from './Home_screen';
 export { default as About_screen } from './About_screen';
 export { default as Skills_screen } from './Skills_screen';
 export { default as Projects_screen } from './Projects_screen';
+export { default as Contact_screen } from './Contact_screen';

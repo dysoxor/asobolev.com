@@ -50,9 +50,12 @@ const Projects_screen = ({projects}) => {
   return (
     <div id='projects' className='projects-container'>
       <div className='projects-title-image-container'>
-        <div className='projects-outline'>
-          PROJECTS
+        <div className='projects-outline-container'>
+          <div className='projects-outline'>
+            PROJECTS
+          </div>
         </div>
+        
         <div className='projects-title'>
         <FontAwesomeIcon icon={faChevronRight} style={{fontSize: '74px', fontWeight:'100', background:'transparent' }} /><span style={{marginLeft:'20px', background:'transparent'}}>Check out my <span style={{color:'#eddc44', background:'transparent'}}>projects</span></span>
         </div>

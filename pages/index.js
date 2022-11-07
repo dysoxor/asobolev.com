@@ -2,7 +2,7 @@ import React from 'react'
 
 import { client } from '../lib/client';
 
-import { About_screen, Home_screen, Skills_screen, Projects_screen } from '../components'
+import { About_screen, Home_screen, Skills_screen, Projects_screen, Contact_screen } from '../components'
 
 const Home = ({projects}) => {
   return (
@@ -11,6 +11,7 @@ const Home = ({projects}) => {
       <About_screen/>
       <Skills_screen/>
       <Projects_screen projects={projects}/>
+      <Contact_screen />
     </div>
   )
 }
