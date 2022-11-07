@@ -61,7 +61,7 @@ const Contact_screen = () => {
             </div>
             
             <div className='contact-title'>
-                <FontAwesomeIcon icon={faChevronRight} style={{fontSize: '74px', fontWeight:'100', background:'transparent' }} /><span style={{marginLeft:'20px', background:'transparent'}}>Let's get in <span style={{color:'#eddc44', background:'transparent'}}>touch</span>!</span>
+                <FontAwesomeIcon icon={faChevronRight} style={{fontSize: '74px', fontWeight:'100', background:'transparent' }} /><span style={{marginLeft:'20px', background:'transparent'}}>Let&apos;s get in <span style={{color:'#eddc44', background:'transparent'}}>touch</span>!</span>
             </div>
             <form className='contact-form-container' onSubmit={sendEmail}>
                 <div className='contact-name-email-container'>
