@@ -176,7 +176,7 @@ const Skills_screen = () => {
                     <Image src={cogs} alt='cogs icon' width={50} height={50} style={{backgroundColor:'transparent'}}/> <span>Backend Development</span>
                 </div>
                 <div className='skills-category-content'>
-                As I was studying computer science I was interested in algorithms and data structures that allows to have the most efficient codes. I've participated to some competition such as Google Hash Code in order to improve my knowledge and my experience. I'm coding freely in C, C++, Python, C# and Java.                </div>
+                As I was studying computer science I was interested in algorithms and data structures that allows to have the most efficient codes. I&apos;ve participated to some competitions such as Google Hash Code in order to improve my knowledge and my experience. I&apos;m coding freely in C, C++, Python, C# and Java.                </div>
                 <div className='skills-category-learnMore' onClick={() => clickSkills(0)}>
                     Learn more
                 </div>
@@ -187,7 +187,7 @@ const Skills_screen = () => {
                 <Image src={AI} alt='artificial intelligence icon' width={50} height={50} style={{backgroundColor:'transparent'}}/> <span>Data Science</span>
                 </div>
                 <div className='skills-category-content'>
-                Data science is my main field of interest. I’ve discovered what is AI, how it works and saw the large amount of application it has. So I’ve started to highly focus this field in my studies. I had also the opportunity to work in a computer vision lab at Ecole polytechnique de Montreal which allowed me to discover the research part which is exciting.
+                Data science is my main field of interest. I&apos;ve discovered what is AI, how it works and saw the large amount of application it has. So I&apos;ve started to highly focus this field in my studies. I had also the opportunity to work in a computer vision lab at Ecole polytechnique de Montreal which allowed me to discover the research part which is exciting.
                 </div>
                 <div className='skills-category-learnMore' onClick={() => clickSkills(1)}>
                     Learn more
@@ -199,7 +199,7 @@ const Skills_screen = () => {
                 <Image src={web} alt='web development icon' width={50} height={50} style={{backgroundColor:'transparent'}}/> <span>Web Development</span>
                 </div>
                 <div className='skills-category-content'>
-                I've started developing web in 2019 by learning HTML and CSS that allowed me to make my previous website. With this little experience, I've helped a friend that was launching Digitalu, an agency for developping web and mobile applications. There, I've learned frameworks such as Reactjs and learned to develop full stack websites. Later I've continued practicing full stack web development.</div>
+                I&apos;ve started developing web in 2019 by learning HTML and CSS that allowed me to make my previous website. With this little experience, I&apos;ve helped a friend that was launching Digitalu, an agency for developping web and mobile applications. There, I&apos;ve learned frameworks such as Reactjs and learned to develop full stack websites. Later I&apos;ve continued practicing full stack web development by learning Nextjs.</div>
                 <div className='skills-category-learnMore' onClick={() => clickSkills(2)}>
                     Learn more
                 </div>
