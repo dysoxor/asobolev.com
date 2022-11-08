@@ -1079,7 +1079,7 @@ ul.rb li:hover .item-title{
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
-  margin-top: 150px;
+  margin-top: 250px;
 }
 
 @keyframes move-skills-catagories-container {
