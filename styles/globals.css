@@ -771,9 +771,9 @@ a {
   white-space: nowrap;
   overflow: hidden;
   text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
-  animation: move-about-left-right 10s linear infinite;
+  animation: move-about-left-right 0.5s linear infinite;
   animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -2s);
+  animation-delay: calc(var(--scroll) * -0.1s);
 }
 
 
@@ -892,9 +892,9 @@ a {
   margin: auto;
   display: block;
   position: relative;
-  animation: move-timeline 5s linear infinite;
+  animation: move-timeline 0.5s linear infinite;
   animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -2s);
+  animation-delay: calc(var(--scroll) * -0.2s);
 }
 
 .rb-container ul.rb {
@@ -912,10 +912,11 @@ a {
   border-left: 6px solid #a1a1a1;
   padding: 0 0 50px 30px;
   position: relative;
+  background-color: transparent;
 }
 
 .rb-container ul.rb li:last-child {
-  
+  background-color: transparent;
   border-left: 0;
   left: 5px
 }
@@ -1033,7 +1034,7 @@ ul.rb li:hover .item-title{
 
   .about-timeline-desc-container{
     width: 100%;
-    
+    background-color: transparent;
   }
   
   
@@ -1096,9 +1097,9 @@ ul.rb li:hover .item-title{
   flex-direction: column;
   align-items: center;
   margin-top: 75px;
-  animation: move-skills-catagories-container 4s linear infinite;
+  animation: move-skills-catagories-container 0.4s linear infinite;
   animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -2s);
+  animation-delay: calc(var(--scroll) * -0.2s);
 }
 
 .skills-title-skill-map-container{
@@ -1342,9 +1343,9 @@ ul.rb li:hover .item-title{
   white-space: nowrap;
   overflow: hidden;
   text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
-  animation: move-skills-left-right 10s linear infinite;
+  animation: move-skills-left-right 0.5s linear infinite;
   animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -2s);
+  animation-delay: calc(var(--scroll) * -0.1s);
 }
 
 @media screen and (max-width:1740px) and (min-width:950px) {
@@ -1713,9 +1714,9 @@ ul.rb li:hover .item-title{
   overflow: hidden;
   width: fit-content;
   text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
-  animation: move-projects-left-right 10s linear infinite;
+  animation: move-projects-left-right 0.5s linear infinite;
   animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -2s);
+  animation-delay: calc(var(--scroll) * -0.1s);
 }
 
 @media screen and (max-width:1420px){
@@ -1830,9 +1831,9 @@ ul.rb li:hover .item-title{
   overflow: hidden;
   width: fit-content;
   text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
-  animation: move-contact-left-right 10s linear infinite;
+  animation: move-contact-left-right 0.5s linear infinite;
   animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -2s);
+  animation-delay: calc(var(--scroll) * -0.1s);
 }
 
 .contact-form-container{
