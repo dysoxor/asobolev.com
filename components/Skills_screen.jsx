@@ -12,7 +12,9 @@ import {
   faChevronRight
 } from "@fortawesome/free-solid-svg-icons";
 
-const skills_array = [["skillbackend1", "skillbackend2", "skillbackend3"], ["skilldata1", "skilldata2", "skilldata3"], ["skillweb1", "skillweb2", "skillweb3"]]
+const skills_array = [  ["Python", "C++", "C", "Java", "C#", "git", "Data Structures", "Algorithms", "Big O", "Unit Testing", "OOP", "Unity 2D", "Game Development", "MongoDB", "mySQL", "Scrum/ Agile", "Bash", "Ubuntu"], 
+                        ["Python", "R", "SQL", "TensorFlow", "NLP", "Computer Vision", "Machine Learning", "Deep Learning", "Reinforcement Learning", "Pandas", "Transformer", "Jupyter", "Cuda", "Linux/ Windows", "PyTorch", "Keras", "Numpy", "Matplotlib", "Seaborn", "Scikit Learn", "PCA", "GAN", "VAE", "YOLOv4", "BERT"], 
+                        ["Javascript", "HTML", "CSS", "React", "Nextjs", "Full Stack", "Figma", "Stripe", "Sanity", "MongoDB", "Nodejs"]]
 const skills_name = ['Backend', 'Data Science', 'Web Development']
 let currentSkillSet = -1
 let clicked = false
@@ -95,7 +97,7 @@ const Skills_screen = () => {
                         else{
                             setSkill = skills_name[currentSkillSet]
                         }
-                        currText[i] = skills_array[specificSkills][Math.floor(Math.random() * skills_array.length)]
+                        currText[i] = skills_array[specificSkills][Math.floor(Math.random() * skills_array[specificSkills].length)]
                         if (i==18){
                             currText[i] = setSkill
                         }
@@ -169,19 +171,18 @@ const Skills_screen = () => {
   return (
     <div id='skills' className='skills-container'>
         <div className='skills-categories-container'>
-            <div className='skills-category-item'>
+            <div className='skills-category-item skills-category-backend'>
                 <div className='skills-category-title'>
                     <Image src={cogs} alt='cogs icon' width={50} height={50} style={{backgroundColor:'transparent'}}/> <span>Backend Development</span>
                 </div>
                 <div className='skills-category-content'>
-                Data science is my main field of interest. I’ve discovered what is AI, how it works and saw the large amount of application it has. So I’ve started to highly focus this field in my studies. I had also the opportunity to work in a computer vision lab at Ecole polytechnique de Montreal which allowed me to discover the research part which is exciting.
-                </div>
+                As I was studying computer science I was interested in algorithms and data structures that allows to have the most efficient codes. I've participated to some competition such as Google Hash Code in order to improve my knowledge and my experience. I'm coding freely in C, C++, Python, C# and Java.                </div>
                 <div className='skills-category-learnMore' onClick={() => clickSkills(0)}>
                     Learn more
                 </div>
             </div>
 
-            <div className='skills-category-item'>
+            <div className='skills-category-item skills-category-datascience'>
                 <div className='skills-category-title'>
                 <Image src={AI} alt='artificial intelligence icon' width={50} height={50} style={{backgroundColor:'transparent'}}/> <span>Data Science</span>
                 </div>
@@ -193,13 +194,12 @@ const Skills_screen = () => {
                 </div>
             </div>
 
-            <div className='skills-category-item'>
+            <div className='skills-category-item skills-category-web'>
                 <div className='skills-category-title'>
                 <Image src={web} alt='web development icon' width={50} height={50} style={{backgroundColor:'transparent'}}/> <span>Web Development</span>
                 </div>
                 <div className='skills-category-content'>
-                Data science is my main field of interest. I’ve discovered what is AI, how it works and saw the large amount of application it has. So I’ve started to highly focus this field in my studies. I had also the opportunity to work in a computer vision lab at Ecole polytechnique de Montreal which allowed me to discover the research part which is exciting.
-                </div>
+                I've started developing web in 2019 by learning HTML and CSS that allowed me to make my previous website. With this little experience, I've helped a friend that was launching Digitalu, an agency for developping web and mobile applications. There, I've learned frameworks such as Reactjs and learned to develop full stack websites. Later I've continued practicing full stack web development.</div>
                 <div className='skills-category-learnMore' onClick={() => clickSkills(2)}>
                     Learn more
                 </div>

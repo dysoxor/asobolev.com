@@ -31,7 +31,7 @@ a {
   justify-content: space-between;
   position: relative;
   height:100px;
-  background-color: #2c2c2c;
+  background-color: #222222;
   width: 100%;
   top: 0;
   position: fixed;
@@ -1119,9 +1119,17 @@ ul.rb li:hover .item-title{
   transition: 1s;
 }
 
-.skills-category-item:hover{
+.skills-category-backend:hover{
+  height: 23.5em;
+}
+
+.skills-category-datascience:hover{
   height: 25em;
 }
+.skills-category-web:hover{
+  height: 28.5em;
+}
+
 
 .skills-category-title{
   background-color: transparent;
@@ -1517,7 +1525,7 @@ ul.rb li:hover .item-title{
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
-  margin-top: 500px;
+  margin-top: 350px;
 }
 
 .projects-title-image-container{
@@ -1763,7 +1771,7 @@ ul.rb li:hover .item-title{
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
-  margin-top: 400px;
+  margin-top: 250px;
 }
 
 .contact-title-form-container{
