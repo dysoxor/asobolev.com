@@ -1375,8 +1375,15 @@ ul.rb li:hover .item-title{
   .skills-skill-map{
     margin-right: 0;
   }
-  .skills-category-item{
+  .skills-category-backend:hover{
+    height: 23.5em;
+  }
+  
+  .skills-category-datascience:hover{
     height: 25em;
+  }
+  .skills-category-web:hover{
+    height: 28.5em;
   }
 }
 
@@ -1396,8 +1403,15 @@ ul.rb li:hover .item-title{
     width: 100%;
   }
 
-  .skills-category-item{
+  .skills-category-backend:hover{
+    height: 23.5em;
+  }
+  
+  .skills-category-datascience:hover{
     height: 25em;
+  }
+  .skills-category-web:hover{
+    height: 28.5em;
   }
 
   .skill-button{
