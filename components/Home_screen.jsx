@@ -36,9 +36,7 @@ const Home_screen = () => {
           </div>
         </div>
         <div className='home-link-contact-container'>
-          <Link  href='/'>
-            
-            <a className='home-contact-container button'>
+          <a className='home-contact-container button' href='#contact'>
               <div className="bottom"></div>
               <div className="top">
               <div className='label'>contact me</div>
@@ -49,7 +47,6 @@ const Home_screen = () => {
 
               </div>
             </a>
-          </Link>
         </div>
         
       </div>
