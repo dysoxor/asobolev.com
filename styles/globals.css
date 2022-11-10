@@ -1080,6 +1080,7 @@ ul.rb li:hover .item-title{
   justify-content: space-around;
   width: 100%;
   margin-top: 250px;
+  background-color: transparent;
 }
 
 @keyframes move-skills-catagories-container {
@@ -1100,6 +1101,7 @@ ul.rb li:hover .item-title{
   animation: move-skills-catagories-container 0.4s linear infinite;
   animation-play-state: paused;
   animation-delay: calc(var(--scroll) * -0.2s);
+  background-color: transparent;
 }
 
 .skills-title-skill-map-container{

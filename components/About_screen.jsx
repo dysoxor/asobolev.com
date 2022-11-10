@@ -65,36 +65,36 @@ const About_screen = () => {
         </div>
         <div className='about-timeline-desc-container'>
             <div className='about-timeline'>
-            <div class="rb-container">
-                <ul class="rb">
-                    <li class="rb-item" ng-repeat="itembx">
-                        <div class="timestamp">
+            <div className="rb-container">
+                <ul className="rb">
+                    <li className="rb-item" ng-repeat="itembx">
+                        <div className="timestamp">
                             September 2017 - June 2020<br/> Bachelor Degree in Engineering
                         </div>
-                        <div class="item-title">Started Bachelor degree in engineering at Université libre de Bruxelles with a specialization in computer science on the last year. I was awarded the grade of bachelor in engineering sciences with distinction. </div>
+                        <div className="item-title">Started Bachelor degree in engineering at Université libre de Bruxelles with a specialization in computer science on the last year. I was awarded the grade of bachelor in engineering sciences with distinction. </div>
 
                     </li>
-                    <li class="rb-item" ng-repeat="itembx">
-                        <div class="timestamp">
+                    <li className="rb-item" ng-repeat="itembx">
+                        <div className="timestamp">
                             September 2020 - June 2021<br/> Master Degree in Computer Science Engineering
                         </div>
-                        <div class="item-title">Started Master degree in software engineering at Université libre de Bruxelles. I was selected to be part of double diploma program the following year at the University of Montreal.</div>
+                        <div className="item-title">Started Master degree in software engineering at Université libre de Bruxelles. I was selected to be part of double diploma program the following year at the University of Montreal.</div>
 
                     </li>
 
-                    <li class="rb-item" ng-repeat="itembx">
-                        <div class="timestamp">
+                    <li className="rb-item" ng-repeat="itembx">
+                        <div className="timestamp">
                             August 2021 - Present<br/> Research Master in LITIV lab
                         </div>
-                        <div class="item-title">Started Master degree in software engineering at Ecole polytechnique de Montréal. I joined the LITIV research lab in computer vision and worked on a AI model that allows to generate Graphical User Interfaces.</div>
+                        <div className="item-title">Started Master degree in software engineering at Ecole polytechnique de Montréal. I joined the LITIV research lab in computer vision and worked on a AI model that allows to generate Graphical User Interfaces.</div>
 
                     </li>
 
-                    <li class="rb-item" ng-repeat="itembx">
-                        <div class="timestamp">
+                    <li className="rb-item" ng-repeat="itembx">
+                        <div className="timestamp">
                             August 2022 - Present<br/> Teaching Assistant
                         </div>
-                        <div class="item-title">Beside studying Im also teaching assistant in INF8770 course at Ecole Polytechnique de Montreal.</div>
+                        <div className="item-title">Beside studying Im also teaching assistant in INF8770 course at Ecole Polytechnique de Montreal.</div>
 
                     </li>
 
