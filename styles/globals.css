@@ -55,10 +55,9 @@ a {
 }
 
 .right-logo{
-  position: inherit;
   color: #eddc44;
   background-color: transparent;
-  margin-left: -65px;
+  margin-left: -0.66em;
 }
 
 .menu-container-container{
