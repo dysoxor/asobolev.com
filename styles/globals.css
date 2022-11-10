@@ -45,8 +45,8 @@ a {
   font-size: 96px;
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 900;
-  margin-left: 74px;
-  margin-top: -25px;
+  margin-left: 1em;
+  margin-top: -0.2em;
 }
 
 .left-logo{
@@ -173,6 +173,12 @@ a {
 
   border-bottom: 4px solid #eddc44;
   margin-top: -10px;
+}
+
+@media screen and (max-width:950px) {
+  .logo-container{
+    display: flex;
+  }
 }
 
 /*--------------------------------------------------------------------*/
