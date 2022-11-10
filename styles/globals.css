@@ -55,6 +55,7 @@ a {
 }
 
 .right-logo{
+  position: relative;
   color: #eddc44;
   background-color: transparent;
   margin-left: -65px;
