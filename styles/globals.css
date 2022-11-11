@@ -274,8 +274,9 @@ a {
 }
 
 .home-right-logo{
+  position: fixed;
   background-color: transparent;
-  margin-left: -2.85em;
+  margin-left: -2.58em;
   color: #eddc44;
 }
 
