@@ -274,13 +274,18 @@ a {
   color: #eddc44;
 }
 
+.home-logo{
+  background-color: transparent;
+  color: #eddc44;
+}
+
 .home-right-logo{
   position: sticky;
   white-space: nowrap;
   overflow: hidden;
   background-color: transparent;
-  margin-left: -13.2rem;
   color: #eddc44;
+  margin-left: -0.67em;
 }
 
 .home-left-logo{
@@ -288,7 +293,7 @@ a {
   white-space: nowrap;
   overflow: hidden;
   color: #ed4444;
-  padding-left: 8.2rem;
+  background-color: transparent;
 }
 
 .home-title{
