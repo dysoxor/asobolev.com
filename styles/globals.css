@@ -274,15 +274,20 @@ a {
 }
 
 .home-right-logo{
-  position: fixed;
+  position: absolute;
+  white-space: nowrap;
+  overflow: hidden;
   background-color: transparent;
-  margin-left: -2.58em;
+  margin-left: 1.5rem;
   color: #eddc44;
 }
 
 .home-left-logo{
+  position: absolute;
+  white-space: nowrap;
+  overflow: hidden;
   color: #ed4444;
-  padding-left: 1.85em;
+  padding-left: 10rem;
 }
 
 .home-title{
