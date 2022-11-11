@@ -1366,24 +1366,27 @@ ul.rb li:hover .item-title{
 }
 
 .skills-logo-container{
+  position:relative;
   background-color: transparent;
   margin-top:-10px;
   user-select: none;
 }
 
 .skill-A-left{
+  position: absolute;
   font-size: 70px;
   font-weight: 900;
+  margin-left: 1rem;
   color: #ed4444;
   background-color: transparent;
 }
 
 .skill-A-right{
+  position: absolute;
   font-size: 70px;
   font-weight: 900;
   color: #eddc44;
-  margin-top: -95px;
-  margin-left: 10px;
+  margin-left: 1.3rem;
   background-color: transparent;
 }
 
