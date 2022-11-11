@@ -821,15 +821,25 @@ a {
   width: 14.3em;
 }
 
+.about-title-icon{
+  font-size: 74px;
+}
+
+.about-who-name{
+  background-color: transparent;
+}
+
 .about-left-logo{
+  white-space: nowrap;
   position: absolute;
-  margin-left: -2.8rem;
+  margin-left: -0.3rem;
   color: #ed4444;
   background-color: transparent;
 }
 
 .about-right-logo{
-  margin-left: -2.5rem;
+  white-space: nowrap;
+  margin-left: -0.5rem;
   position: absolute;
   color: #eddc44;
   background-color: transparent;
@@ -1016,11 +1026,16 @@ ul.rb li:hover .item-title{
     font-size: 20px;
   }
 
+
   ul.rb li .timestamp{
     font-size: 20px;
   }
 
   .about-title{
+    font-size: 50px;
+  }
+
+  .about-title-icon{
     font-size: 50px;
   }
 
@@ -1064,15 +1079,16 @@ ul.rb li:hover .item-title{
   .about-title{
     font-size: 50px;
   }
+  .about-title-icon{
+    font-size: 50px;
+  }
 
   .about-left-logo{
-    padding-top: 0.7rem;
-    margin-left: -2.3rem;
+    margin-left: -0.3rem;
   }
   
   .about-right-logo{
-    padding-top: 0.7rem;
-    margin-left: -2rem;
+    margin-left: -0rem;
   }
 
   .about-name{
