@@ -1368,7 +1368,7 @@ ul.rb li:hover .item-title{
 .skills-logo-container{
   position:relative;
   background-color: transparent;
-  margin-top:-10px;
+  margin-top:-1rem;
   user-select: none;
 }
 
