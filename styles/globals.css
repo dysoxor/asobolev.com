@@ -823,15 +823,13 @@ a {
 
 .about-left-logo{
   position: absolute;
-  margin-top: 0.7rem;
-  margin-left: -2.3rem;
+  margin-left: -2.8rem;
   color: #ed4444;
   background-color: transparent;
 }
 
 .about-right-logo{
-  margin-top: 0.7rem;
-  margin-left: -2rem;
+  margin-left: -2.5rem;
   position: absolute;
   color: #eddc44;
   background-color: transparent;
@@ -844,7 +842,7 @@ a {
 }
 
 .about-name{
-  margin-left: 2rem;
+  margin-left: 2.5rem;
   position: relative;
   background-color: transparent;
   color: #eddc44;
@@ -1026,14 +1024,20 @@ ul.rb li:hover .item-title{
     font-size: 50px;
   }
 
-  .about-left-name{
-    padding-left: 190px;
+  .about-left-logo{
+    margin-top: 0.7rem;
+    margin-left: -2.3rem;
   }
   
-  
-  .about-right-full-name{
-    margin-left: -229px;
+  .about-right-logo{
+    margin-top: 0.7rem;
+    margin-left: -2rem;
   }
+
+  .about-name{
+    margin-left: 2rem;
+  }
+
   @keyframes move-about-left-right {
     0%{
       margin-left:-50px;
@@ -1061,8 +1065,18 @@ ul.rb li:hover .item-title{
     font-size: 50px;
   }
 
-  .about-left-name{
-    padding-left: 190px;
+  .about-left-logo{
+    margin-top: 0.7rem;
+    margin-left: -2.3rem;
+  }
+  
+  .about-right-logo{
+    margin-top: 0.7rem;
+    margin-left: -2rem;
+  }
+
+  .about-name{
+    margin-left: 2rem;
   }
 
   .about-timeline-desc-container{
