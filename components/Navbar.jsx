@@ -1,6 +1,6 @@
 import React from 'react'
-import Image from 'next/image';
-import fillA from '../assets/filla.gif'
+
+import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detect';
 
 const Navbar = () => {
   return (
@@ -9,9 +9,7 @@ const Navbar = () => {
         <div className='left-logo'>
           A
         </div>
-        <div className='right-logo'>
-          A
-        </div>
+        {isMobile ? <div className='right-logo-mobile'>A</div> : <div className='right-logo'>A</div>}
         
       </a>
       <div className='menu-container-container'>

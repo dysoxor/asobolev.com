@@ -60,6 +60,12 @@ a {
   margin-left: -4rem;
 }
 
+.right-logo-mobile{
+  color: #eddc44;
+  background-color: transparent;
+  margin-left: -3rem;
+}
+
 .menu-container-container{
   background-color: transparent;
   width: 100%;
