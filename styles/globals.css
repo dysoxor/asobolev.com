@@ -1025,14 +1025,12 @@ ul.rb li:hover .item-title{
   }
 
   .about-left-logo{
-    margin-top: 0.7rem;
-    margin-bottom: -0.7rem;
+    padding-top: 0.7rem;
     margin-left: -2.3rem;
   }
   
   .about-right-logo{
-    margin-top: 0.7rem;
-    margin-bottom: -0.7rem;
+    padding-top: 0.7rem;
     margin-left: -2rem;
   }
 
@@ -1068,14 +1066,12 @@ ul.rb li:hover .item-title{
   }
 
   .about-left-logo{
-    margin-top: 0.7rem;
-    margin-bottom: -0.7rem;
+    padding-top: 0.7rem;
     margin-left: -2.3rem;
   }
   
   .about-right-logo{
-    margin-top: 0.7rem;
-    margin-bottom: -0.7rem;
+    padding-top: 0.7rem;
     margin-left: -2rem;
   }
 
