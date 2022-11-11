@@ -49,7 +49,7 @@ const About_screen = () => {
                 ABOUT 
             </div>
             <div className='about-title about-title-transition'>
-            <FontAwesomeIcon icon={faChevronRight} style={{fontSize: '74px', fontWeight:'100', background:'transparent' }} /><span className='about-left-name'>A</span> <span className='about-right-full-name'>Who is <span className='about-right-name'>Andrey Sobolevsky</span>?</span>
+            <FontAwesomeIcon icon={faChevronRight} style={{fontSize: '74px', fontWeight:'100', background:'transparent' }} /> <span className='about-full-name'>Who is <span className='about-name'><span className='about-left-logo'>A</span><span className='about-right-logo'>A</span>ndrey Sobolevsky</span>?</span>
             </div>
             <div className='about-presentation'>
                 <p>I’m a software engineer based in Montreal and specializing in machine learning and data science. I’m motivated to build usefull systems for people and have positive impact.</p>
