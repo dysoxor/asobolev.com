@@ -260,6 +260,7 @@ a {
 
 
 .typing-home-name{
+  position: relative;
   width:7em;
   animation: blinkTextCursor2 2s 0.2s, typing2 2s steps(14);
   white-space: nowrap;
@@ -274,20 +275,20 @@ a {
 }
 
 .home-right-logo{
-  position: absolute;
+  position: sticky;
   white-space: nowrap;
   overflow: hidden;
   background-color: transparent;
-  margin-left: 1.5rem;
+  margin-left: -13.2rem;
   color: #eddc44;
 }
 
 .home-left-logo{
-  position: absolute;
+  position: sticky;
   white-space: nowrap;
   overflow: hidden;
   color: #ed4444;
-  padding-left: 10rem;
+  padding-left: 8.2rem;
 }
 
 .home-title{
