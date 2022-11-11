@@ -280,21 +280,20 @@ a {
 }
 
 .home-right-logo{
-  position: relative;
+  position: absolute;
   white-space: nowrap;
   overflow: hidden;
   background-color: transparent;
   color: #eddc44;
-  margin-left: -0.67em;
+  margin-left: 0.1em;
 }
 
 .home-left-logo{
-  position: relative;
+  position: absolute;
   white-space: nowrap;
   overflow: hidden;
   color: #ed4444;
   background-color: transparent;
-  padding-left: 0.1em;
 }
 
 .home-title{
