@@ -294,6 +294,7 @@ a {
   overflow: hidden;
   color: #ed4444;
   background-color: transparent;
+  padding-left: 0.1em;
 }
 
 .home-title{
