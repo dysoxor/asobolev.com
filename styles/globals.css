@@ -280,7 +280,7 @@ a {
 }
 
 .home-right-logo{
-  position: static;
+  position: inherit;
   white-space: nowrap;
   overflow: hidden;
   background-color: transparent;
@@ -289,7 +289,7 @@ a {
 }
 
 .home-left-logo{
-  position: static;
+  position: inherit;
   white-space: nowrap;
   overflow: hidden;
   color: #ed4444;
