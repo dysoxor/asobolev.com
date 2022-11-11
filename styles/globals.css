@@ -832,14 +832,14 @@ a {
 .about-left-logo{
   white-space: nowrap;
   position: absolute;
-  margin-left: -0.3rem;
+  margin-left: -0.4rem;
   color: #ed4444;
   background-color: transparent;
 }
 
 .about-right-logo{
   white-space: nowrap;
-  margin-left: -0.5rem;
+  margin-left: -0.1rem;
   position: absolute;
   color: #eddc44;
   background-color: transparent;
@@ -1040,17 +1040,15 @@ ul.rb li:hover .item-title{
   }
 
   .about-left-logo{
-    padding-top: 0.7rem;
-    margin-left: -2.3rem;
+    margin-left: 0rem;
   }
   
   .about-right-logo{
-    padding-top: 0.7rem;
-    margin-left: -2rem;
+    margin-left: 0.3rem;
   }
 
   .about-name{
-    margin-left: 2rem;
+    margin-left: 2.3rem;
   }
 
   @keyframes move-about-left-right {
