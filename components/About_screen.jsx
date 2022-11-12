@@ -60,7 +60,7 @@ const About_screen = () => {
             <div className='about-socials-container'>
                 <div className='about-icon'> <a href='https://github.com/dysoxor/asobolev.com/raw/main/assets/cv.pdf' target="_blank" rel='noreferrer'> <Image src={cv} alt='cv andrey sobolevsky' width={500} height={500}/> </a></div>
                 <div className='about-icon'> <a href='https://github.com/dysoxor' target="_blank" rel='noreferrer'> <Image src={git} alt='github andrey sobolevsky' width={500} height={500}/> </a></div>
-                <div className='about-icon'> <a href='https://www.linkedin.com/in/andrey-sobolevsky-33a96a142/' target="_blank" rel='noreferrer'> <Image src={linkedin} alt='linkedin andrey sobolevsky' width={500} height={500}/> </a></div>
+                <div className='about-icon'> <a href='https://www.linkedin.com/in/iasobolev/' target="_blank" rel='noreferrer'> <Image src={linkedin} alt='linkedin andrey sobolevsky' width={500} height={500}/> </a></div>
             </div>
         </div>
         <div className='about-timeline-desc-container'>

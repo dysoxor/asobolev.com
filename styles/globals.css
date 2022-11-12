@@ -349,6 +349,7 @@ a {
 }
 
 .titles-home-container{
+  position: relative;
   list-style: none;
   width: 1em;
   white-space: nowrap;
