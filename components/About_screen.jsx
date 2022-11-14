@@ -21,7 +21,7 @@ const About_screen = () => {
 
   useEffect(() => {
     
-    // Remove the transition class
+    // Remove the transition class 
     const about_title = document.querySelector('.about-title');
     about_title.classList.remove('about-title-transition');
 
