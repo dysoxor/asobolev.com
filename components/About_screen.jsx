@@ -12,8 +12,6 @@ import cv from '../assets/cv.png'
 import git from '../assets/github.png'
 import linkedin from '../assets/linkedin.png'
 
-import cvpdf from '../assets/cv.pdf'
-
 import { Page, Text, View, Document, BlobProvider } from 'react-pdf'
 
 const About_screen = () => {
@@ -60,7 +58,7 @@ const About_screen = () => {
                 <p>I want to be part of something that will help the world somehow. <a className='about-presentation-link' href='#contact'>Let’s build it together!</a></p>
             </div>
             <div className='about-socials-container'>
-                <div className='about-icon'> <a href={cvpdf} target="_blank" rel='noreferrer'> <Image src={cv} alt='cv andrey sobolevsky' width={500} height={500}/> </a></div>
+                <div className='about-icon'> <a href='https://github.com/dysoxor/asobolev.com/raw/main/assets/cv.pdf' target="_blank" rel='noreferrer'> <Image src={cv} alt='cv andrey sobolevsky' width={500} height={500}/> </a></div>
                 <div className='about-icon'> <a href='https://github.com/dysoxor' target="_blank" rel='noreferrer'> <Image src={git} alt='github andrey sobolevsky' width={500} height={500}/> </a></div>
                 <div className='about-icon'> <a href='https://www.linkedin.com/in/iasobolev/' target="_blank" rel='noreferrer'> <Image src={linkedin} alt='linkedin andrey sobolevsky' width={500} height={500}/> </a></div>
             </div>
