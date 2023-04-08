@@ -86,7 +86,7 @@ const About_screen = () => {
                         <div className="timestamp">
                             August 2021 - Present<br/> Research Master in LITIV lab
                         </div>
-                        <div className="item-title">Started Master degree in software engineering at Ecole polytechnique de Montréal. I joined the LITIV research lab in computer vision and worked on a AI model that allows to generate Graphical User Interfaces. I had the opportunity to publish a paper named<a className='about-yellow'>GUILGET: GUI Layout GEneration with Transformer</a> and attend the <a className='about-yellow' href='https://www.caiac.ca/en/conferences/canadianai-2023/home' target="_blank">Canadian AI Conference 2023.</a></div>
+                        <div className="item-title">Started Master degree in software engineering at Ecole polytechnique de Montréal. I joined the LITIV research lab in computer vision and worked on a AI model that allows to generate Graphical User Interfaces. I had the opportunity to publish a paper named<a className='about-yellow'>GUILGET: GUI Layout GEneration with Transformer</a> and attend the <a className='about-yellow' href='https://www.caiac.ca/en/conferences/canadianai-2023/home' target="_blank" rel="noreferrer">Canadian AI Conference 2023.</a></div>
 
                     </li>
 
